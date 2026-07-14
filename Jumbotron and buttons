@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Music Studio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f7f2ff;
+      font-family: Arial, sans-serif;
+    }
+    .jumbotron {
+      background-color: #ede3ff;
+      border-left: 6px solid #6f42c1;
+    }
+    .jumbotron h1 {
+      color: #6f42c1;
+    }
+    .section-title {
+      color: #6f42c1;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .content-box {
+      background-color: white;
+      border: 2px solid #6f42c1;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOPIC 1: JUMBOTRON -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1>My Music Studio</h1>
+      <p class="lead">Welcome to my music studio! Here I practice songs, learn instruments, and enjoy different musical styles.</p>
+
+      <!-- TOPIC 2: BUTTONS -->
+      <button class="btn btn-primary">Piano</button>
+      <button class="btn btn-success">Guitar</button>
+      <button class="btn btn-warning">Drums</button>
+      <button class="btn btn-danger">Singing</button>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <h2 class="section-title">My Favourite Music Activities</h2>
+
+    <div class="content-box">
+      <p>Piano Practice</p>
+      <button class="btn btn-outline-primary btn-sm">Start</button>
+      <button class="btn btn-outline-secondary btn-sm">Pause</button>
+    </div>
+
+    <div class="content-box">
+      <p>Guitar Session</p>
+      <button class="btn btn-outline-success btn-sm">Play</button>
+      <button class="btn btn-outline-dark btn-sm">Stop</button>
+    </div>
+
+    <div class="content-box">
+      <p>Music Challenge</p>
+      <button class="btn btn-info">Easy</button>
+      <button class="btn btn-warning">Medium</button>
+      <button class="btn btn-danger">Hard</button>
+    </div>
+
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
