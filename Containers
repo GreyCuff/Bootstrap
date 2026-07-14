@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Art Studio Containers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f9fc;
+    }
+    .header {
+      background-color: #6f42c1;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    .section-title {
+      color: #6f42c1;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .box {
+      background-color: white;
+      border: 2px solid #6f42c1;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- container-fluid takes the full width of the screen -->
+  <div class="container-fluid header">
+    <h1>Art Studio</h1>
+    <p>Learning how Bootstrap containers work</p>
+  </div>
+
+  <!-- container keeps content centered -->
+  <div class="container">
+
+    <h2 class="section-title">My Art Activities</h2>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="box">
+          <h3>Painting</h3>
+          <p>I love painting flowers, skies, and colourful scenes.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="box">
+          <h3>Sketching</h3>
+          <p>I enjoy sketching animals, cartoons, and funny faces.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="box">
+          <h3>Craft Work</h3>
+          <p>I make creative crafts using paper, glue, and colours.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- another container section inside the main container -->
+    <div class="container">
+      <h2 class="section-title">Why I Like Art</h2>
+      <div class="box">
+        <p>Art helps me express my ideas, improve my creativity, and enjoy my free time.</p>
+      </div>
+    </div>
+
+    <!-- container-fluid used again for a full-width banner style -->
+    <div class="container-fluid bg-light border border-dark p-3 my-4 text-center">
+      <h4 class="text-dark">Full Width Note</h4>
+      <p class="mb-0">This area stretches across the screen because it uses container-fluid.</p>
+    </div>
+
+  </div>
+
+  <div class="container-fluid footer">
+    <p>Made with Bootstrap Containers — Art Studio</p>
+  </div>
+
+</body>
+</html>
