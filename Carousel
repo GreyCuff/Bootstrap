@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Amazing Wonders of the World</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    body {
+      background-color: #f5f9ff;
+      font-family: Arial, sans-serif;
+    }
+
+    .wonder-slide {
+      height: 250px;
+      text-align: center;
+      padding-top: 90px;
+      font-size: 2rem;
+      color: white;
+      font-weight: bold;
+    }
+
+    .slide-wall {
+      background-color: #8e44ad;
+    }
+
+    .slide-pyramid {
+      background-color: #e67e22;
+    }
+
+    .slide-taj {
+      background-color: #16a085;
+    }
+
+    .section-title {
+      color: #8e44ad;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .info-box {
+      background-color: white;
+      border: 2px solid #8e44ad;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Bootstrap Carousel -->
+  <div id="wonderCarousel" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li data-target="#wonderCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#wonderCarousel" data-slide-to="1"></li>
+      <li data-target="#wonderCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active wonder-slide slide-wall">
+        🏯 Great Wall of China
+      </div>
+
+      <div class="carousel-item wonder-slide slide-pyramid">
+        🔺 Pyramids of Egypt
+      </div>
+
+      <div class="carousel-item wonder-slide slide-taj">
+        🕌 Taj Mahal
+      </div>
+
+    </div>
+
+    <a class="carousel-control-prev" href="#wonderCarousel" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+
+    <a class="carousel-control-next" href="#wonderCarousel" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+
+  </div>
+
+  <div class="container">
+
+    <h2 class="section-title">Explore the Wonders</h2>
+
+    <div class="info-box">
+      <p>The carousel lets you move between different slides using the Previous and Next buttons.</p>
+      <p>Each slide in this project represents one of the famous wonders of the world.</p>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
