@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Color and Border Fun</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8fbff;
+    }
+    .header {
+      background-color: #17a2b8;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    .section-title {
+      color: #17a2b8;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .box {
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Color and Border Fun</h1>
+    <p>Learning how to add colors and borders with Bootstrap</p>
+  </div>
+
+  <div class="container">
+    <h2 class="section-title">My Favourite Activities</h2>
+
+    <div class="box bg-warning border border-dark">
+      <h3>Painting</h3>
+      <p>I enjoy painting flowers, mountains, and bright sunsets.</p>
+    </div>
+
+    <div class="box bg-success text-white border border-light">
+      <h3>Gardening</h3>
+      <p>I like watering plants and watching them grow.</p>
+    </div>
+
+    <div class="box bg-primary text-white border border-dark">
+      <h3>Swimming</h3>
+      <p>I love swimming in clean water on a sunny day.</p>
+    </div>
+
+    <div class="box bg-danger text-white border border-white">
+      <h3>Sports</h3>
+      <p>I play cricket and other outdoor games with my friends.</p>
+    </div>
+
+    <h2 class="section-title">Border Examples</h2>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="box bg-light border border-primary">
+          Blue Border
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="box bg-light border border-success">
+          Green Border
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="box bg-light border border-danger">
+          Red Border
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-fluid footer">
+    <p>Made with Bootstrap — Color and Border Practice</p>
+  </div>
+
+</body>
+</html>
