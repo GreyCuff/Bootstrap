@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Technology Guide</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    body {
+      background-color: #f4f9ff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h2 {
+      color: #0066cc;
+      margin-top: 25px;
+    }
+
+    dl {
+      text-align: left;
+      display: inline-block;
+      background-color: white;
+      padding: 20px;
+      border: 2px solid #0066cc;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
+    dt {
+      color: #0066cc;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    dd {
+      margin-left: 20px;
+      color: #555;
+    }
+
+    hr {
+      border-color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+
+  <p class="display-1">TECH WORLD</p>
+  <p class="display-2">Amazing Gadgets</p>
+  <p class="display-3">Learning Technology</p>
+  <p class="display-4">Technology Guide <small>by Jamie</small></p>
+
+  <hr>
+
+  <h2>Popular Devices</h2>
+
+  <dl>
+    <dt>Laptop</dt>
+    <dd>A portable computer used for study and work.</dd>
+
+    <dt>Tablet</dt>
+    <dd>A touchscreen device that is easy to carry.</dd>
+
+    <dt>Smartwatch</dt>
+    <dd>A wearable device that shows time and fitness data.</dd>
+
+    <dt>Headphones</dt>
+    <dd>Used for listening to music and online classes.</dd>
+  </dl>
+
+</body>
+</html>
