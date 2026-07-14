@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Online Book Store</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      background-color: #6f42c1;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .section-title {
+      color: #6f42c1;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    .content-box {
+      background-color: white;
+      border: 2px solid #6f42c1;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .pagination {
+      justify-content: center;
+    }
+
+    .footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Online Book Store</h1>
+    <p>Browse different pages of your favourite books.</p>
+  </div>
+
+  <div class="container">
+
+    <h2 class="section-title">Popular Book Categories</h2>
+
+    <div class="content-box">
+      <h4>📚 Adventure Books</h4>
+      <p>Read exciting stories full of action and mystery.</p>
+    </div>
+
+    <div class="content-box">
+      <h4>📖 Science Books</h4>
+      <p>Discover amazing facts about nature, space, and technology.</p>
+    </div>
+
+    <div class="content-box">
+      <h4>🧚 Fairy Tales</h4>
+      <p>Enjoy magical stories with princes, princesses, and dragons.</p>
+    </div>
+
+    <h2 class="section-title">Browse Pages</h2>
+
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" href="#">Previous</a>
+      </li>
+
+      <li class="page-item active">
+        <a class="page-link" href="#">1</a>
+      </li>
+
+      <li class="page-item">
+        <a class="page-link" href="#">2</a>
+      </li>
+
+      <li class="page-item">
+        <a class="page-link" href="#">3</a>
+      </li>
+
+      <li class="page-item">
+        <a class="page-link" href="#">4</a>
+      </li>
+
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+
+  </div>
+
+  <div class="container-fluid footer">
+    <p>Made with Bootstrap — Pagination Practice</p>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
