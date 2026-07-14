@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fitness Club</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    body {
+      background-color: #f3fff4;
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+
+    h2 {
+      color: #28a745;
+      margin-top: 30px;
+    }
+
+    .content-box {
+      background-color: white;
+      border: 2px solid #28a745;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    blockquote {
+      border-left: 5px solid #28a745;
+      padding-left: 15px;
+      font-style: italic;
+      color: #555;
+    }
+
+    hr {
+      border-color: #28a745;
+    }
+
+    dt {
+      color: #28a745;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Display Headings -->
+  <p class="display-1 text-center">FITNESS CLUB</p>
+  <p class="display-2 text-center">Stay Healthy</p>
+  <p class="display-3 text-center">Exercise Every Day</p>
+  <p class="display-4 text-center">Fitness Guide <small>for Beginners</small></p>
+
+  <hr>
+
+  <div class="content-box">
+
+    <!-- Heading Classes -->
+    <h2>Bootstrap Heading Classes</h2>
+
+    <p class="h1">Warm-Up Session</p>
+    <p class="h2">Cardio Exercise</p>
+    <p class="h3">Strength Training</p>
+    <p class="h4">Yoga Practice</p>
+    <p class="h5">Healthy Diet</p>
+    <p class="h6">Cool Down</p>
+
+  </div>
+
+  <div class="content-box">
+
+    <!-- Lead, Mark, Small -->
+    <h2>Healthy Living</h2>
+
+    <p class="lead">
+      Daily exercise helps us stay active, fit, and energetic.
+    </p>
+
+    <p>
+      Drink <mark>plenty of water</mark> before and after your workout.
+    </p>
+
+    <p>
+      <small>Always exercise safely and follow your trainer's instructions.</small>
+    </p>
+
+  </div>
+
+  <div class="content-box">
+
+    <!-- Code and Abbreviation -->
+    <h2>Useful Terms</h2>
+
+    <p>The <code>push-up</code> is a simple bodyweight exercise.</p>
+
+    <p>
+      <abbr title="Body Mass Index">BMI</abbr> is commonly used to measure body weight in relation to height.
+    </p>
+
+  </div>
+
+  <div class="content-box">
+
+    <!-- Blockquote -->
+    <h2>Motivational Quote</h2>
+
+    <blockquote>
+      <p>"Take care of your body. It's the only place you have to live."</p>
+      <footer>— Jim Rohn</footer>
+    </blockquote>
+
+  </div>
+
+  <div class="content-box">
+
+    <!-- Description List -->
+    <h2>Workout Plan</h2>
+
+    <dl>
+      <dt>Running</dt>
+      <dd>Improves heart health and stamina.</dd>
+
+      <dt>Yoga</dt>
+      <dd>Increases flexibility and reduces stress.</dd>
+
+      <dt>Cycling</dt>
+      <dd>Strengthens leg muscles and improves balance.</dd>
+
+      <dt>Stretching</dt>
+      <dd>Helps prevent muscle injuries before exercise.</dd>
+    </dl>
+
+  </div>
+
+</body>
+</html>
