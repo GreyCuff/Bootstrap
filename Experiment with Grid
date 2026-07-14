@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Let's Experiment with Grid</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8fbff;
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      background-color: #1e88e5;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    .section-title {
+      color: #1e88e5;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .grid-box {
+      background-color: #e3f2fd;
+      border: 2px solid #1e88e5;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .grid-box small {
+      display: block;
+      font-weight: normal;
+      margin-top: 8px;
+      color: #444;
+    }
+    .footer {
+      background-color: #263238;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Let's Experiment with Grid</h1>
+    <p>Learning how Bootstrap grid works in a fun way!</p>
+  </div>
+
+  <div class="container">
+    <h2 class="section-title">Grid Layout Examples</h2>
+
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="grid-box">
+          Box 1
+          <small>Full width on small screens, half on medium, one-fourth on large.</small>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="grid-box">
+          Box 2
+          <small>This box changes size according to the screen width.</small>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="grid-box">
+          Box 3
+          <small>Bootstrap makes the page responsive and neat.</small>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="grid-box">
+          Box 4
+          <small>All boxes stay aligned in one row on larger screens.</small>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Different Grid Sizes</h2>
+
+    <div class="row">
+      <div class="col-12 col-sm-4">
+        <div class="grid-box">
+          4 Columns
+          <small>Small but useful for simple content.</small>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-4">
+        <div class="grid-box">
+          4 Columns
+          <small>Same size keeps the design balanced.</small>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-4">
+        <div class="grid-box">
+          4 Columns
+          <small>Perfect for three equal parts.</small>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Mixing Grid Columns</h2>
+
+    <div class="row">
+      <div class="col-12 col-md-8">
+        <div class="grid-box">
+          Main Content
+          <small>This takes more space because it is the main part of the page.</small>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="grid-box">
+          Side Content
+          <small>This smaller box can be used for notes or extra information.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Made with Bootstrap Grid — Experiment and Learn</p>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
