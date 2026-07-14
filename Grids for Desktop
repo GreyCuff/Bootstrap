@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Grids for Desktop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f2f6ff;
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      background-color: #343a40;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    .section-title {
+      color: #343a40;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .grid-box {
+      background-color: #ffffff;
+      border: 2px solid #343a40;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: bold;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.08);
+    }
+    .grid-box small {
+      display: block;
+      font-weight: normal;
+      margin-top: 8px;
+      color: #555;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Grids for Desktop</h1>
+    <p>Learning how Bootstrap grid looks on a desktop screen!</p>
+  </div>
+
+  <div class="container">
+    <h2 class="section-title">Four Equal Boxes</h2>
+
+    <div class="row">
+      <div class="col-12 col-lg-3">
+        <div class="grid-box">
+          Box 1
+          <small>On desktop, this takes one-fourth of the row.</small>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-3">
+        <div class="grid-box">
+          Box 2
+          <small>All boxes stay in one line on large screens.</small>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-3">
+        <div class="grid-box">
+          Box 3
+          <small>This makes the page look neat and balanced.</small>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-3">
+        <div class="grid-box">
+          Box 4
+          <small>Bootstrap makes the layout responsive.</small>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Main and Side Area</h2>
+
+    <div class="row">
+      <div class="col-12 col-lg-8">
+        <div class="grid-box">
+          Main Section
+          <small>This is the larger part of the desktop layout.</small>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div class="grid-box">
+          Side Section
+          <small>This smaller box is useful for extra information.</small>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Three Desktop Columns</h2>
+
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        <div class="grid-box">
+          Column A
+          <small>Perfect for text, images, or cards.</small>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div class="grid-box">
+          Column B
+          <small>Each column becomes equal on desktop.</small>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div class="grid-box">
+          Column C
+          <small>This is a simple way to design webpages.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Made with Bootstrap Grid — Desktop Layout Practice</p>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
