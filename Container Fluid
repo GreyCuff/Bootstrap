@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Adventure Camp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f9ff;
+    }
+    .header {
+      background-color: #007bff;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    .section-title {
+      color: #007bff;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .box {
+      background-color: white;
+      border: 2px solid #007bff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- container-fluid takes full width of the screen -->
+  <div class="container-fluid header">
+    <h1>My Adventure Camp</h1>
+    <p>Learning how Bootstrap container-fluid works</p>
+  </div>
+
+  <!-- container keeps content centred -->
+  <div class="container">
+
+    <h2 class="section-title">Camp Activities</h2>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="box">
+          <h3>Hiking</h3>
+          <p>I enjoy walking through hills, trees, and fresh air.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="box">
+          <h3>Camping</h3>
+          <p>I like staying in tents and spending time under the stars.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="box">
+          <h3>Bonfire</h3>
+          <p>I love singing songs and telling stories near the fire.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- full-width section using container-fluid -->
+    <div class="container-fluid bg-light border border-primary p-3 my-4 text-center">
+      <h4 class="text-primary">Adventure Tips</h4>
+      <p class="mb-0">Always stay safe, follow instructions, and enjoy the journey.</p>
+    </div>
+
+    <h2 class="section-title">Why I Like Adventure</h2>
+    <div class="box">
+      <p>Adventure helps me stay active, brave, and happy while learning new things.</p>
+    </div>
+
+  </div>
+
+  <div class="container-fluid footer">
+    <p>Made with Bootstrap container-fluid — Adventure Camp</p>
+  </div>
+
+</body>
+</html>
