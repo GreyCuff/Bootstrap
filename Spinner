@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather Station</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    body {
+      background-color: #eef8ff;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .section-title {
+      color: #007bff;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    .spinner-area {
+      text-align: center;
+      padding: 30px;
+      border: 2px solid #007bff;
+      border-radius: 10px;
+      background-color: white;
+      margin-bottom: 25px;
+    }
+
+    .footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Weather Station</h1>
+    <p>Checking today's weather conditions.</p>
+  </div>
+
+  <div class="container">
+
+    <h2 class="section-title">Loading Weather Data</h2>
+
+    <div class="spinner-area">
+
+      <div class="spinner-border text-primary" role="status"></div>
+      <div class="spinner-border text-success" role="status"></div>
+      <div class="spinner-border text-warning" role="status"></div>
+      <div class="spinner-border text-danger" role="status"></div>
+
+      <p class="mt-4">
+        Please wait while the weather report is being prepared...
+      </p>
+
+    </div>
+
+    <h2 class="section-title">Weather Status</h2>
+
+    <div class="spinner-area">
+      <div class="spinner-grow text-info" role="status"></div>
+      <div class="spinner-grow text-secondary" role="status"></div>
+
+      <p class="mt-4">
+        Collecting temperature, wind speed, and rainfall information.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="container-fluid footer">
+    <p>Made with Bootstrap — Spinner Practice</p>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
