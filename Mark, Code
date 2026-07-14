@@ -1,0 +1,66 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mark and Code</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    body {
+      background-color: #fffaf2;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h2 {
+      color: #d35400;
+      margin-top: 25px;
+    }
+
+    mark {
+      background-color: yellow;
+      font-weight: bold;
+    }
+
+    code {
+      background-color: #f4f4f4;
+      color: #c0392b;
+      padding: 3px 6px;
+      border-radius: 5px;
+    }
+
+    hr {
+      border-color: #d35400;
+    }
+  </style>
+</head>
+<body>
+
+  <p class="display-1">WEB BASICS</p>
+  <p class="display-2">Text Formatting Tags</p>
+  <p class="display-3">Learn HTML Easily</p>
+  <p class="display-4">Formatting Guide <small>by Student</small></p>
+
+  <hr>
+
+  <h2>Using Mark Tag</h2>
+  <p>We use the <mark>mark</mark> tag to highlight important text.</p>
+  <p>This sentence shows how to highlight a <mark>key word</mark> in HTML.</p>
+
+  <hr>
+
+  <h2>Using Code Tag</h2>
+  <p>The <code>code</code> tag is used to show computer code.</p>
+  <p>Example: <code>print("Hello World")</code></p>
+
+  <hr>
+
+  <h2>Combination Example</h2>
+  <p>You can also combine both: <mark><code>HTML</code></mark> is a web language.</p>
+
+</body>
+</html>
+```
