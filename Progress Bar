@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Language Learning Tracker</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    body {
+      background-color: #f5fff8;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      background-color: #28a745;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .section-title {
+      color: #28a745;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .box {
+      background-color: white;
+      border: 2px solid #28a745;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>Language Learning Tracker</h1>
+    <p>Track your progress in learning different languages.</p>
+  </div>
+
+  <div class="container">
+
+    <h2 class="section-title">Course Progress</h2>
+
+    <div class="box">
+
+      <p>English</p>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-primary" style="width:90%">90%</div>
+      </div>
+
+      <p>Spanish</p>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-success" style="width:70%">70%</div>
+      </div>
+
+      <p>French</p>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-warning" style="width:50%">50%</div>
+      </div>
+
+      <p>Japanese</p>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-danger" style="width:30%">30%</div>
+      </div>
+
+    </div>
+
+    <h2 class="section-title">Weekly Goal</h2>
+
+    <div class="box">
+
+      <p>Vocabulary Practice</p>
+      <div class="progress">
+        <div class="progress-bar bg-info" style="width:80%">80%</div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container-fluid footer">
+    <p>Made with Bootstrap — Progress Bar Practice</p>
+  </div>
+
+</body>
+</html>
